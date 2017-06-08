@@ -91,4 +91,19 @@ public class TestPlanetExplorer {
 					 "(3, 3, N)", rover.getFormatedCoorditates());
 	}
 	
+	@Test
+	public void test_fullRotationToTheRight()
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		
+		//Movement
+		rover.moveRight();
+		rover.moveRight();
+		rover.moveRight();
+		rover.moveRight();
+		
+		assertEquals("Vozilo pravi krug oko svoje ose na desno",
+					 "(3, 3, N)", rover.getFormatedCoorditates());
+	}
+	
 }

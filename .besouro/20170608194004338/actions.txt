@@ -126,3 +126,8 @@ UnitTestCaseAction 1496946612312 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946612315 TestPlanetExplorer.java FAIL
 EditAction 1496946691917 PlanetExplorer.java 2089 7 12 0
 EditAction 1496946709090 PlanetExplorer.java 2089 7 12 0
+UnitTestCaseAction 1496946714871 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946714873 TestPlanetExplorer.java OK
+RefactoringAction 1496946727650 TestPlanetExplorer.java ADD void test_fullRotationToTheLeft()/2 METHOD
+RefactoringAction 1496946733698 TestPlanetExplorer.java RENAME test_fullRotationToTheLeft()/2=>void test_fullRotationToTheRight() METHOD
+EditAction 1496946755986 TestPlanetExplorer.java 2447 9 34 9
