@@ -155,3 +155,10 @@ RefactoringAction 1496947074055 TestPlanetExplorer.java ADD void test_fullRotati
 RefactoringAction 1496947081096 TestPlanetExplorer.java RENAME test_fullRotationToTheRight()/2=>void test_fullRotationToTheRightPlusOne() METHOD
 EditAction 1496947098851 TestPlanetExplorer.java 3193 11 48 11
 EditAction 1496947107734 PlanetExplorer.java 2210 7 12 0
+UnitTestCaseAction 1496947114593 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947114594 TestPlanetExplorer.java OK
+RefactoringAction 1496947168992 PlanetExplorerException.java ADD PlanetExplorerException() METHOD
+RefactoringAction 1496947172019 PlanetExplorerException.java RENAME PlanetExplorerException()=>PlanetExplorerException(String) METHOD
+RefactoringAction 1496947177603 PlanetExplorerException.java RENAME PlanetExplorerException(String)=>PlanetExplorerException() METHOD
+RefactoringAction 1496947179620 PlanetExplorerException.java RENAME PlanetExplorerException()=>PlanetExplorerException(String) METHOD
+EditAction 1496947239338 PlanetExplorerException.java 143 1 1 0
