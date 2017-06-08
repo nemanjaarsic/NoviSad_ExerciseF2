@@ -75,4 +75,20 @@ public class TestPlanetExplorer {
 		assertEquals("Vozilo menja smer kretanja na desno",
 					 "(3, 3, S)", rover.getFormatedCoorditates());
 	}
+	
+	@Test
+	public void test_fullRotationToTheLeft()
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		
+		//Movement
+		rover.moveLeft();
+		rover.moveLeft();
+		rover.moveLeft();
+		rover.moveLeft();
+		
+		assertEquals("Vozilo pravi krug oko svoje ose na levo",
+					 "(3, 3, N)", rover.getFormatedCoorditates());
+	}
+	
 }

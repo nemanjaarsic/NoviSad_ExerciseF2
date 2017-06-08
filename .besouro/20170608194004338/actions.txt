@@ -112,3 +112,13 @@ RefactoringAction 1496946414649 TestPlanetExplorer.java ADD void test_changeDire
 RefactoringAction 1496946417690 TestPlanetExplorer.java RENAME test_changeDirectionRight_1()/2=>void test_changeDirectionRight_2() METHOD
 EditAction 1496946427429 TestPlanetExplorer.java 1797 7 22 7
 EditAction 1496946460408 PlanetExplorer.java 1973 7 12 0
+UnitTestCaseAction 1496946479341 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946479342 TestPlanetExplorer.java OK
+RefactoringAction 1496946503405 TestPlanetExplorer.java ADD void test_changeDirectionRight_2()/2 METHOD
+RefactoringAction 1496946507437 TestPlanetExplorer.java RENAME test_changeDirectionRight_2()/2=>void test_() METHOD
+RefactoringAction 1496946508995 TestPlanetExplorer.java RENAME test_()=>void test_full() METHOD
+RefactoringAction 1496946514032 TestPlanetExplorer.java RENAME test_full()=>void test_fullRotation() METHOD
+RefactoringAction 1496946520066 TestPlanetExplorer.java RENAME test_fullRotation()=>void test_fullRotationTo() METHOD
+RefactoringAction 1496946522112 TestPlanetExplorer.java RENAME test_fullRotationTo()=>void test_fullRotationToThe() METHOD
+RefactoringAction 1496946526648 TestPlanetExplorer.java RENAME test_fullRotationToThe()=>void test_fullRotationToTheLeft() METHOD
+EditAction 1496946607865 TestPlanetExplorer.java 2120 8 28 8
