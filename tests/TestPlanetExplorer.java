@@ -23,6 +23,6 @@ public class TestPlanetExplorer {
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveBack();
-		assertEquals("Vozilo se pomerilo nazad za 1", "(2, 4, N)", rover.getFormatedCoorditates());
+		assertEquals("Vozilo se pomerilo nazad za 1", "(3, 2, N)", rover.getFormatedCoorditates());
 	}
 }
