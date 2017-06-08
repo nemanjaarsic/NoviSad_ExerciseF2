@@ -83,3 +83,17 @@ RefactoringAction 1496946111137 PlanetExplorer.java ADD void moveRight FIELD
 RefactoringAction 1496946112679 PlanetExplorer.java RENAME moveRight=>void moveRight() METHOD
 EditAction 1496946115667 PlanetExplorer.java 1807 7 11 0
 EditAction 1496946140943 PlanetExplorer.java 1857 7 12 0
+UnitTestCaseAction 1496946157913 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496946157916 TestPlanetExplorer.java OK
+RefactoringAction 1496946172182 TestPlanetExplorer.java RENAME test_changeDirectionLeft()=>void test_changeDirectionTOLeft() METHOD
+RefactoringAction 1496946173218 TestPlanetExplorer.java RENAME test_changeDirectionTOLeft()=>void test_changeDirectionToLeft() METHOD
+RefactoringAction 1496946176260 TestPlanetExplorer.java RENAME test_changeDirectionToLeft()=>void test_changeDirectionToLeft_() METHOD
+RefactoringAction 1496946177790 TestPlanetExplorer.java RENAME test_changeDirectionToLeft_()=>void test_changeDirectionToLeft_O() METHOD
+RefactoringAction 1496946178831 TestPlanetExplorer.java RENAME test_changeDirectionToLeft_O()=>void test_changeDirectionToLeft_On() METHOD
+RefactoringAction 1496946180859 TestPlanetExplorer.java RENAME test_changeDirectionToLeft_On()=>void test_changeDirectionToLeft_One() METHOD
+RefactoringAction 1496946182408 TestPlanetExplorer.java RENAME test_changeDirectionToLeft_One()=>void test_changeDirectionToLeft_Ones() METHOD
+RefactoringAction 1496946190938 TestPlanetExplorer.java RENAME test_changeDirectionToLeft_Ones()=>void test_changeDirectionToLeft_() METHOD
+RefactoringAction 1496946194473 TestPlanetExplorer.java RENAME test_changeDirectionToLeft_()=>void test_changeDirectionToLeft_1() METHOD
+RefactoringAction 1496946212010 TestPlanetExplorer.java RENAME test_changeDirectionToLeft_1()=>void test_changeDirectionLeft_1() METHOD
+RefactoringAction 1496946216536 TestPlanetExplorer.java RENAME test_changeDirectionRight()=>void test_changeDirectionRight_1() METHOD
+EditAction 1496946217127 TestPlanetExplorer.java 1203 5 14 5

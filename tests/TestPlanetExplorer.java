@@ -27,7 +27,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_changeDirectionLeft()
+	public void test_changeDirectionLeft_1()
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveLeft();
@@ -36,7 +36,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_changeDirectionRight()
+	public void test_changeDirectionRight_1()
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveRight();
