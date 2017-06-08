@@ -42,7 +42,7 @@ public class PlanetExplorer {
 		this.y--;
 	}
 	
-	public void moveLeft()
+	public void moveLeft() throws PlanetExplorerException
 	{
 		if(this.direction == "N")
 			this.direction = "W";
@@ -53,7 +53,7 @@ public class PlanetExplorer {
 		else if(this.direction == "E")
 			this.direction = "N";
 		else
-			throw new PlanetExplorerException("Vozilo je pokvareno!") 
+			throw new PlanetExplorerException("Vozilo je pokvareno!");
 			
 	}
 	

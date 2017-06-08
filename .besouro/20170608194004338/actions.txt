@@ -164,3 +164,8 @@ RefactoringAction 1496947179620 PlanetExplorerException.java RENAME PlanetExplor
 EditAction 1496947239338 PlanetExplorerException.java 143 1 1 0
 EditAction 1496947254815 PlanetExplorerException.java 143 1 1 0
 EditAction 1496947301580 PlanetExplorer.java 2279 7 11 0
+CompilationAction 1496947304656 PlanetExplorer.java
+CompilationAction 1496947323018 PlanetExplorer.java
+CompilationAction 1496947323416 PlanetExplorer.java
+CompilationAction 1496947323417 TestPlanetExplorer.java
+EditAction 1496947368253 PlanetExplorer.java 2310 7 12 0
