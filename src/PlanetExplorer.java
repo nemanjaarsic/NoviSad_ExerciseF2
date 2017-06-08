@@ -42,6 +42,11 @@ public class PlanetExplorer {
 		this.y--;
 	}
 	
+	public void moveLeft()
+	{
+		
+	}
+	
 	
 	public String executeCommand(String command){
 		
