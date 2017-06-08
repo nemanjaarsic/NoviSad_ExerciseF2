@@ -54,6 +54,8 @@ public class PlanetExplorer {
 	{
 		if(this.direction == "N")
 			this.direction = "E";
+		else if(this.direction == "E")
+			this.direction = "S";
 	}
 	
 	
