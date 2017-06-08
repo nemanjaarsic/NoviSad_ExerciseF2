@@ -15,14 +15,14 @@ public class TestPlanetExplorer {
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveForth();
-		assertEquals("Vozilo se pomerilo za napred za 1", "(3, 4, N)", rover.getFormatedCoorditates());
+		assertEquals("Vozilo se pomerilo napred za 1", "(3, 4, N)", rover.getFormatedCoorditates());
 	}
 	
 	@Test
 	public void test_moveBack()
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
-		rover.moveForth();
-		assertEquals("Vozilo se pomerilo za napred za 1", "(2, 4, N)", rover.getFormatedCoorditates());
+		rover.moveBack();
+		assertEquals("Vozilo se pomerilo nazad za 1", "(2, 4, N)", rover.getFormatedCoorditates());
 	}
 }
