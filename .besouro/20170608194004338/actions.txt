@@ -162,3 +162,4 @@ RefactoringAction 1496947172019 PlanetExplorerException.java RENAME PlanetExplor
 RefactoringAction 1496947177603 PlanetExplorerException.java RENAME PlanetExplorerException(String)=>PlanetExplorerException() METHOD
 RefactoringAction 1496947179620 PlanetExplorerException.java RENAME PlanetExplorerException()=>PlanetExplorerException(String) METHOD
 EditAction 1496947239338 PlanetExplorerException.java 143 1 1 0
+EditAction 1496947254815 PlanetExplorerException.java 143 1 1 0
