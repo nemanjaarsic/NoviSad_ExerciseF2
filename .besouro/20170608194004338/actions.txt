@@ -15,3 +15,4 @@ RefactoringAction 1496945032383 PlanetExplorer.java ADD String di FIELD
 RefactoringAction 1496945034922 PlanetExplorer.java RENAME di=>String direction FIELD
 CompilationAction 1496945047784 PlanetExplorer.java
 EditAction 1496945078569 TestPlanetExplorer.java 295 1 2 1
+EditAction 1496945087968 TestPlanetExplorer.java 297 1 2 1
