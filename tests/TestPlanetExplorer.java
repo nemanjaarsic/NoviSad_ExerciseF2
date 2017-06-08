@@ -150,15 +150,38 @@ public class TestPlanetExplorer {
 		
 	}
 	
+	public void test_RotateLeft_MoveBack() throws PlanetExplorerException
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		rover.moveLeft();
+		rover.moveBack();
+		
+		assertEquals("Vozilo se rotira na zabad i pomera za 1",
+				 "(2, 3, W)", rover.getFormatedCoorditates());
+		
+	}
+	
 	@Test
 	public void test_RotateRight_MoveForth() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
-		rover.moveLeft();
+		rover.moveRight();
 		rover.moveForth();
 		
 		assertEquals("Vozilo se rotira na zabad i pomera za 1",
 				 "(4, 3, E)", rover.getFormatedCoorditates());
+		
+	}
+	
+	@Test
+	public void test_RotateRight_MoveBack() throws PlanetExplorerException
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		rover.moveRight();
+		rover.moveBack();
+		
+		assertEquals("Vozilo se rotira na zabad i pomera za 1",
+				 "(2, 3, E)", rover.getFormatedCoorditates());
 		
 	}
 }

@@ -198,3 +198,16 @@ UnitTestSessionAction 1496947857214 TestPlanetExplorer.java OK
 RefactoringAction 1496948061595 TestPlanetExplorer.java ADD void test_RotateLeft_MoveForth()/2 METHOD
 RefactoringAction 1496948067176 TestPlanetExplorer.java RENAME test_RotateLeft_MoveForth()/2=>void test_RotateRight_MoveForth() METHOD
 EditAction 1496948089401 PlanetExplorer.java 2271 7 12 0
+UnitTestCaseAction 1496948093688 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496948093690 TestPlanetExplorer.java FAIL
+RefactoringAction 1496948119017 TestPlanetExplorer.java ADD void test_RotateLeft_MoveForth()/2 METHOD
+RefactoringAction 1496948124080 TestPlanetExplorer.java RENAME test_RotateLeft_MoveForth()/2=>void test_RotateLeft_MoveBack() METHOD
+RefactoringAction 1496948143315 TestPlanetExplorer.java ADD void test_RotateRight_MoveForth()/2 METHOD
+RefactoringAction 1496948147862 TestPlanetExplorer.java RENAME test_RotateRight_MoveForth()/2=>void test_RotateRight_MoveBack() METHOD
+UnitTestCaseAction 1496948186032 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496948186034 TestPlanetExplorer.test_RotateRight_MoveForth FAIL
+UnitTestCaseAction 1496948225420 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496948225421 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1496948248475 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496948248478 TestPlanetExplorer.java OK
+EditAction 1496948277469 PlanetExplorer.java 1925 7 12 0
