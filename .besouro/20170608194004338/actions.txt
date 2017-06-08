@@ -65,3 +65,5 @@ RefactoringAction 1496945734272 TestPlanetExplorer.java RENAME test_m()=>void te
 RefactoringAction 1496945738799 TestPlanetExplorer.java RENAME test_changeDirec()=>void test_changeDirection() METHOD
 RefactoringAction 1496945744841 TestPlanetExplorer.java RENAME test_changeDirection()=>void test_changeDirectionLeft() METHOD
 EditAction 1496945776217 TestPlanetExplorer.java 961 4 11 4
+CompilationAction 1496945779442 TestPlanetExplorer.java
+EditAction 1496945794411 TestPlanetExplorer.java 961 4 11 4
