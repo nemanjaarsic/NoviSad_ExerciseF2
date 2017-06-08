@@ -19,3 +19,11 @@ EditAction 1496945087968 TestPlanetExplorer.java 297 1 2 1
 UnitTestCaseAction 1496945116572 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496945116576 TestPlanetExplorer.java FAIL
 EditAction 1496945150342 PlanetExplorer.java 1597 3 8 0
+UnitTestCaseAction 1496945155730 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945155733 TestPlanetExplorer.java OK
+RefactoringAction 1496945230509 TestPlanetExplorer.java ADD vod test_ FIELD
+RefactoringAction 1496945233031 TestPlanetExplorer.java RENAME test_=>vod test_move FIELD
+RefactoringAction 1496945234570 TestPlanetExplorer.java RENAME test_move=>vod test_moveFar FIELD
+RefactoringAction 1496945236102 TestPlanetExplorer.java RENAME test_moveFar=>vod test_moveFarvard FIELD
+RefactoringAction 1496945237120 TestPlanetExplorer.java RENAME test_moveFarvard=>vod test_moveFarvard() METHOD
+EditAction 1496945238863 TestPlanetExplorer.java 346 2 2 1
