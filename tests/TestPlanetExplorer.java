@@ -119,7 +119,7 @@ public class TestPlanetExplorer {
 		rover.moveLeft();
 		
 		assertEquals("Vozilo pravi krug oko svoje ose na levo i jos jednom na levo",
-					 "(3, 3, E)", rover.getFormatedCoorditates());
+					 "(3, 3, W)", rover.getFormatedCoorditates());
 	}
 	
 }

@@ -146,3 +146,6 @@ RefactoringAction 1496946924038 TestPlanetExplorer.java RENAME test_fullRotation
 RefactoringAction 1496946928117 TestPlanetExplorer.java RENAME test_fullRotationToTheLeftP()=>void test_fullRotationToTheLeftPlus() METHOD
 RefactoringAction 1496946933189 TestPlanetExplorer.java RENAME test_fullRotationToTheLeftPlus()=>void test_fullRotationToTheLeftPlusOne() METHOD
 EditAction 1496946991977 TestPlanetExplorer.java 2816 10 41 10
+UnitTestCaseAction 1496946997051 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496946997052 TestPlanetExplorer.java FAIL
+EditAction 1496947043942 TestPlanetExplorer.java 2816 10 41 10
