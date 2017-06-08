@@ -34,7 +34,10 @@ public class PlanetExplorer {
 	
 	public void moveForth()
 	{
-		this.y++;
+		if(this.direction == "N" || this.direction == "S")
+			this.y++;
+		else if(this.direction == "E" || this.direction == "W")
+			this.x++;
 	}
 	
 	public void moveBack()
@@ -57,7 +60,7 @@ public class PlanetExplorer {
 			
 	}
 	
-	public void moveRight()
+	public void moveRight() throws PlanetExplorerException
 	{
 		if(this.direction == "N")
 			this.direction = "E";

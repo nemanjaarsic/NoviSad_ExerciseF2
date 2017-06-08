@@ -170,3 +170,22 @@ CompilationAction 1496947323416 PlanetExplorer.java
 CompilationAction 1496947323417 TestPlanetExplorer.java
 EditAction 1496947368253 PlanetExplorer.java 2310 7 12 0
 EditAction 1496947400793 PlanetExplorer.java 2438 7 12 0
+CompilationAction 1496947407336 PlanetExplorer.java
+RefactoringAction 1496947443752 TestPlanetExplorer.java ADD void test FIELD
+CompilationAction 1496947451956 PlanetExplorer.java
+CompilationAction 1496947452357 TestPlanetExplorer.java
+RefactoringAction 1496947480441 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1496947485486 TestPlanetExplorer.java RENAME test_=>void test_Rota FIELD
+RefactoringAction 1496947487016 TestPlanetExplorer.java RENAME test_Rota=>void test_Rotate FIELD
+RefactoringAction 1496947489559 TestPlanetExplorer.java RENAME test_Rotate=>void test_RotateLeft FIELD
+RefactoringAction 1496947490591 TestPlanetExplorer.java RENAME test_RotateLeft=>void test_RotateLeftM FIELD
+RefactoringAction 1496947491628 TestPlanetExplorer.java RENAME test_RotateLeftM=>void test_RotateLeft FIELD
+RefactoringAction 1496947494671 TestPlanetExplorer.java RENAME test_RotateLeft=>void test_RotateLeft_Move FIELD
+RefactoringAction 1496947495704 TestPlanetExplorer.java RENAME test_RotateLeft_Move=>void test_RotateLeft_MoveF FIELD
+RefactoringAction 1496947497252 TestPlanetExplorer.java RENAME test_RotateLeft_MoveF=>void test_RotateLeft_MoveForth FIELD
+RefactoringAction 1496947500291 TestPlanetExplorer.java RENAME test_RotateLeft_MoveForth=>void test_RotateLeft_MoveForth() METHOD
+CompilationAction 1496947545368 TestPlanetExplorer.java
+CompilationAction 1496947606332 TestPlanetExplorer.java
+UnitTestCaseAction 1496947611105 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496947611108 TestPlanetExplorer.java FAIL
+EditAction 1496947743732 PlanetExplorer.java 2594 7 12 0

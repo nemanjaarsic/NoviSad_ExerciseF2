@@ -27,7 +27,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_changeDirectionLeft_1()
+	public void test_changeDirectionLeft_1() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		
@@ -39,7 +39,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_changeDirectionRight_1()
+	public void test_changeDirectionRight_1() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		
@@ -51,7 +51,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_changeDirectionLeft_2()
+	public void test_changeDirectionLeft_2() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		
@@ -64,7 +64,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_changeDirectionRight_2()
+	public void test_changeDirectionRight_2() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		
@@ -77,7 +77,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_fullRotationToTheLeft()
+	public void test_fullRotationToTheLeft() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		
@@ -92,7 +92,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_fullRotationToTheRight()
+	public void test_fullRotationToTheRight() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		
@@ -107,7 +107,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_fullRotationToTheLeftPlusOne()
+	public void test_fullRotationToTheLeftPlusOne() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		
@@ -123,7 +123,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_fullRotationToTheRightPlusOne()
+	public void test_fullRotationToTheRightPlusOne() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		
@@ -138,4 +138,15 @@ public class TestPlanetExplorer {
 					 "(3, 3, E)", rover.getFormatedCoorditates());
 	}
 	
+	@Test
+	public void test_RotateLeft_MoveForth() throws PlanetExplorerException
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		rover.moveLeft();
+		rover.moveForth();
+		
+		assertEquals("Vozilo se rotira na zabad i pomera za 1",
+				 "(4, 3, W)", rover.getFormatedCoorditates());
+		
+	}
 }
