@@ -11,7 +11,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_moveForth()
+	public void test_moveForth() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveForth();
@@ -19,7 +19,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_moveBack()
+	public void test_moveBack() throws PlanetExplorerException
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveBack();
@@ -147,6 +147,18 @@ public class TestPlanetExplorer {
 		
 		assertEquals("Vozilo se rotira na zabad i pomera za 1",
 				 "(4, 3, W)", rover.getFormatedCoorditates());
+		
+	}
+	
+	@Test
+	public void test_RotateRight_MoveForth() throws PlanetExplorerException
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		rover.moveLeft();
+		rover.moveForth();
+		
+		assertEquals("Vozilo se rotira na zabad i pomera za 1",
+				 "(4, 3, E)", rover.getFormatedCoorditates());
 		
 	}
 }

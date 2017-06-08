@@ -191,3 +191,10 @@ UnitTestSessionAction 1496947611108 TestPlanetExplorer.java FAIL
 EditAction 1496947743732 PlanetExplorer.java 2594 7 12 0
 EditAction 1496947770748 PlanetExplorer.java 2719 7 12 0
 EditAction 1496947834044 PlanetExplorer.java 2905 7 12 0
+CompilationAction 1496947837489 TestPlanetExplorer.java
+CompilationAction 1496947856298 TestPlanetExplorer.java
+UnitTestCaseAction 1496947857213 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947857214 TestPlanetExplorer.java OK
+RefactoringAction 1496948061595 TestPlanetExplorer.java ADD void test_RotateLeft_MoveForth()/2 METHOD
+RefactoringAction 1496948067176 TestPlanetExplorer.java RENAME test_RotateLeft_MoveForth()/2=>void test_RotateRight_MoveForth() METHOD
+EditAction 1496948089401 PlanetExplorer.java 2271 7 12 0
