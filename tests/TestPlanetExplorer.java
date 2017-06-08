@@ -49,6 +49,7 @@ public class TestPlanetExplorer {
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveLeft();
+		rover.moveLeft();
 		assertEquals("Vozilo menja smer kretanja na levo",
 					 "(3, 3, S)", rover.getFormatedCoorditates());
 	}
