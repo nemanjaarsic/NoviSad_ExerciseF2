@@ -82,3 +82,4 @@ CompilationAction 1496946098238 TestPlanetExplorer.java
 RefactoringAction 1496946111137 PlanetExplorer.java ADD void moveRight FIELD
 RefactoringAction 1496946112679 PlanetExplorer.java RENAME moveRight=>void moveRight() METHOD
 EditAction 1496946115667 PlanetExplorer.java 1807 7 11 0
+EditAction 1496946140943 PlanetExplorer.java 1857 7 12 0

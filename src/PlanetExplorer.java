@@ -50,7 +50,8 @@ public class PlanetExplorer {
 	
 	public void moveRight()
 	{
-		
+		if(this.direction == "N")
+			this.direction = "E";
 	}
 	
 	
