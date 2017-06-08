@@ -52,6 +52,7 @@ public class PlanetExplorer {
 			this.direction = "E";
 		else if(this.direction == "E")
 			this.direction = "N";
+			
 	}
 	
 	public void moveRight()
