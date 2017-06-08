@@ -3,3 +3,7 @@ RefactoringAction 1496944552673 TestPlanetExplorer.java RENAME test_executeComma
 RefactoringAction 1496944554206 TestPlanetExplorer.java RENAME test_()=>void test_map() METHOD
 RefactoringAction 1496944557729 TestPlanetExplorer.java RENAME test_map()=>void test_mapFormation() METHOD
 EditAction 1496944627639 TestPlanetExplorer.java 196 1 1 0
+RefactoringAction 1496944780213 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1496944786750 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1496944801978 PlanetExplorer.java ADD String prepreke FIELD
+EditAction 1496944803693 PlanetExplorer.java 1315 2 1 0
