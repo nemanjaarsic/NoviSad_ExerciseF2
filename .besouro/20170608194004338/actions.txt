@@ -7,3 +7,4 @@ RefactoringAction 1496944780213 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1496944786750 PlanetExplorer.java ADD int y FIELD
 RefactoringAction 1496944801978 PlanetExplorer.java ADD String prepreke FIELD
 EditAction 1496944803693 PlanetExplorer.java 1315 2 1 0
+EditAction 1496944838832 PlanetExplorer.java 1367 2 4 0
