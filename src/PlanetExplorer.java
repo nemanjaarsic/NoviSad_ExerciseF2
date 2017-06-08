@@ -27,7 +27,7 @@ public class PlanetExplorer {
 	public String getFormatedCoorditates()
 	{
 		String ispis = null;
-		ispis = "(" + Integer.toString(x) + ", " + Integer.toString(y) + ", " + direction;
+		ispis = "(" + Integer.toString(x) + ", " + Integer.toString(y) + ", " + direction + ")";
 		
 		return ispis;
 	}

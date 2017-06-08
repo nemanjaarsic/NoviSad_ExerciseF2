@@ -16,3 +16,6 @@ RefactoringAction 1496945034922 PlanetExplorer.java RENAME di=>String direction 
 CompilationAction 1496945047784 PlanetExplorer.java
 EditAction 1496945078569 TestPlanetExplorer.java 295 1 2 1
 EditAction 1496945087968 TestPlanetExplorer.java 297 1 2 1
+UnitTestCaseAction 1496945116572 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1496945116576 TestPlanetExplorer.java FAIL
+EditAction 1496945150342 PlanetExplorer.java 1597 3 8 0
