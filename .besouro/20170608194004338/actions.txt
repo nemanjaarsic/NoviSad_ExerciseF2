@@ -77,3 +77,4 @@ UnitTestSessionAction 1496946030489 TestPlanetExplorer.java OK
 RefactoringAction 1496946055804 TestPlanetExplorer.java ADD void test_changeDirectionLeft()/2 METHOD
 RefactoringAction 1496946063393 TestPlanetExplorer.java RENAME test_changeDirectionLeft()/2=>void test_changeDirectionRights() METHOD
 EditAction 1496946064113 TestPlanetExplorer.java 1197 5 14 5
+EditAction 1496946094958 TestPlanetExplorer.java 1199 5 14 5
