@@ -45,3 +45,7 @@ RefactoringAction 1496945591023 TestPlanetExplorer.java RENAME test_moveFarvard(
 RefactoringAction 1496945595049 TestPlanetExplorer.java RENAME test_moveFarvard()=>void test_move()/2 METHOD
 RefactoringAction 1496945597073 TestPlanetExplorer.java RENAME test_move()/2=>void test_moveForth() METHOD
 EditAction 1496945600104 TestPlanetExplorer.java 735 3 8 3
+CompilationAction 1496945603378 TestPlanetExplorer.java
+RefactoringAction 1496945607653 TestPlanetExplorer.java RENAME test_moveForth()/2=>void test_moveBa() METHOD
+CompilationAction 1496945608279 TestPlanetExplorer.java
+EditAction 1496945611631 TestPlanetExplorer.java 734 3 8 3

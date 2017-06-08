@@ -19,10 +19,10 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_moveForth()
+	public void test_moveBack()
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveForth();
-		assertEquals("Vozilo se pomerilo za napred za 1", "(3, 4, N)", rover.getFormatedCoorditates());
+		assertEquals("Vozilo se pomerilo za napred za 1", "(2, 4, N)", rover.getFormatedCoorditates());
 	}
 }
