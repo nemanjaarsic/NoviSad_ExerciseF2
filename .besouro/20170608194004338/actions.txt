@@ -70,3 +70,4 @@ EditAction 1496945794411 TestPlanetExplorer.java 961 4 11 4
 CompilationAction 1496945799449 TestPlanetExplorer.java
 RefactoringAction 1496945860856 PlanetExplorer.java ADD void moveLeft() METHOD
 EditAction 1496945863898 PlanetExplorer.java 1721 6 10 0
+EditAction 1496945898250 TestPlanetExplorer.java 961 4 11 4
