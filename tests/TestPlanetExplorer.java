@@ -25,4 +25,13 @@ public class TestPlanetExplorer {
 		rover.moveBack();
 		assertEquals("Vozilo se pomerilo nazad za 1", "(3, 2, N)", rover.getFormatedCoorditates());
 	}
+	
+	@Test
+	public void test_changeDirectionLeft()
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		rover.moveLeft();
+		assertEquals("Vozilo menja smer kretanja na levo",
+					 "(2, 3, N)", rover.getFormatedCoorditates());
+	}
 }
