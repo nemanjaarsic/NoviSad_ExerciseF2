@@ -32,20 +32,24 @@ public class PlanetExplorer {
 		return ispis;
 	}
 	
-	public void moveForth()
+	public void moveForth() throws PlanetExplorerException
 	{
 		if(this.direction == "N" || this.direction == "S")
 			this.y++;
 		else if(this.direction == "E" || this.direction == "W")
 			this.x++;
+		else
+			throw new PlanetExplorerException("Nesto nevalja");
 	}
 	
-	public void moveBack()
+	public void moveBack() throws PlanetExplorerException
 	{
 		if(this.direction == "N" || this.direction == "S")
 			this.y--;
 		else if(this.direction == "E" || this.direction == "W")
 			this.x--;
+		else
+			throw new PlanetExplorerException("Nesto nevalja");
 	}
 	
 	public void moveLeft() throws PlanetExplorerException
