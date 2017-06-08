@@ -78,3 +78,7 @@ RefactoringAction 1496946055804 TestPlanetExplorer.java ADD void test_changeDire
 RefactoringAction 1496946063393 TestPlanetExplorer.java RENAME test_changeDirectionLeft()/2=>void test_changeDirectionRights() METHOD
 EditAction 1496946064113 TestPlanetExplorer.java 1197 5 14 5
 EditAction 1496946094958 TestPlanetExplorer.java 1199 5 14 5
+CompilationAction 1496946098238 TestPlanetExplorer.java
+RefactoringAction 1496946111137 PlanetExplorer.java ADD void moveRight FIELD
+RefactoringAction 1496946112679 PlanetExplorer.java RENAME moveRight=>void moveRight() METHOD
+EditAction 1496946115667 PlanetExplorer.java 1807 7 11 0

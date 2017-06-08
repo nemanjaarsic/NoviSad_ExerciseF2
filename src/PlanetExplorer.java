@@ -48,6 +48,11 @@ public class PlanetExplorer {
 			this.direction = "W";
 	}
 	
+	public void moveRight()
+	{
+		
+	}
+	
 	
 	public String executeCommand(String command){
 		
