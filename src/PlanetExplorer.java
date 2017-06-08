@@ -42,7 +42,10 @@ public class PlanetExplorer {
 	
 	public void moveBack()
 	{
-		this.y--;
+		if(this.direction == "N" || this.direction == "S")
+			this.y--;
+		else if(this.direction == "E" || this.direction == "W")
+			this.x--;
 	}
 	
 	public void moveLeft() throws PlanetExplorerException
