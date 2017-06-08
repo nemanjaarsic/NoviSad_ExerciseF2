@@ -44,7 +44,8 @@ public class PlanetExplorer {
 	
 	public void moveLeft()
 	{
-		
+		if(this.direction == "N")
+			this.direction = "W";
 	}
 	
 	
