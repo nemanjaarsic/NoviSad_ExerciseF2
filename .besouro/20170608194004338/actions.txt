@@ -37,3 +37,4 @@ RefactoringAction 1496945465270 PlanetExplorer.java RENAME move=>void moveFor FI
 RefactoringAction 1496945472399 PlanetExplorer.java RENAME moveFor=>void moveForth() METHOD
 EditAction 1496945475349 PlanetExplorer.java 1633 4 8 0
 EditAction 1496945485158 PlanetExplorer.java 1642 4 9 0
+EditAction 1496945564982 TestPlanetExplorer.java 518 2 5 2
