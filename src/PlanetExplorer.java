@@ -32,6 +32,11 @@ public class PlanetExplorer {
 		return ispis;
 	}
 	
+	public void moveForth()
+	{
+		
+	}
+	
 	
 	public String executeCommand(String command){
 		

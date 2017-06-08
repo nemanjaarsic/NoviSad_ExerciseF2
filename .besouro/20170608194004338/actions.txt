@@ -32,3 +32,7 @@ CompilationAction 1496945244673 TestPlanetExplorer.java
 EditAction 1496945283734 TestPlanetExplorer.java 399 2 3 1
 EditAction 1496945360999 TestPlanetExplorer.java 497 2 4 2
 EditAction 1496945377619 TestPlanetExplorer.java 497 2 4 2
+RefactoringAction 1496945463522 PlanetExplorer.java ADD void move FIELD
+RefactoringAction 1496945465270 PlanetExplorer.java RENAME move=>void moveFor FIELD
+RefactoringAction 1496945472399 PlanetExplorer.java RENAME moveFor=>void moveForth() METHOD
+EditAction 1496945475349 PlanetExplorer.java 1633 4 8 0
