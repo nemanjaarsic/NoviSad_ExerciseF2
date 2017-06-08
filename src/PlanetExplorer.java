@@ -53,7 +53,7 @@ public class PlanetExplorer {
 		else if(this.direction == "E")
 			this.direction = "N";
 		else
-			throw new PlanetExplorerException("Vozilo je pokvareno!");
+			throw new PlanetExplorerException("Vozilo je pokvareno, ne moze se poimeriti u levo!");
 			
 	}
 	
@@ -67,6 +67,8 @@ public class PlanetExplorer {
 			this.direction = "W";
 		else if (this.direction == "W")
 			this.direction = "N";
+		else
+			throw new PlanetExplorerException("Vozilo je pokvareno, ne moze se poimeriti u desno!");
 	}
 	
 	
