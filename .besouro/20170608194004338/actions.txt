@@ -27,3 +27,6 @@ RefactoringAction 1496945234570 TestPlanetExplorer.java RENAME test_move=>vod te
 RefactoringAction 1496945236102 TestPlanetExplorer.java RENAME test_moveFar=>vod test_moveFarvard FIELD
 RefactoringAction 1496945237120 TestPlanetExplorer.java RENAME test_moveFarvard=>vod test_moveFarvard() METHOD
 EditAction 1496945238863 TestPlanetExplorer.java 346 2 2 1
+CompilationAction 1496945243106 TestPlanetExplorer.java
+CompilationAction 1496945244673 TestPlanetExplorer.java
+EditAction 1496945283734 TestPlanetExplorer.java 399 2 3 1

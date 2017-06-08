@@ -11,8 +11,8 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public vod test_moveFarvard()
+	public void test_moveFarvard()
 	{
-		
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 	}
 }
