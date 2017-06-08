@@ -149,3 +149,8 @@ EditAction 1496946991977 TestPlanetExplorer.java 2816 10 41 10
 UnitTestCaseAction 1496946997051 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1496946997052 TestPlanetExplorer.java FAIL
 EditAction 1496947043942 TestPlanetExplorer.java 2816 10 41 10
+UnitTestCaseAction 1496947048084 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496947048086 TestPlanetExplorer.java OK
+RefactoringAction 1496947074055 TestPlanetExplorer.java ADD void test_fullRotationToTheRight()/2 METHOD
+RefactoringAction 1496947081096 TestPlanetExplorer.java RENAME test_fullRotationToTheRight()/2=>void test_fullRotationToTheRightPlusOne() METHOD
+EditAction 1496947098851 TestPlanetExplorer.java 3193 11 48 11
