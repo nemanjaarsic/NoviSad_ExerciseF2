@@ -106,4 +106,20 @@ public class TestPlanetExplorer {
 					 "(3, 3, N)", rover.getFormatedCoorditates());
 	}
 	
+	@Test
+	public void test_fullRotationToTheLeftPlusOne()
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		
+		//Movement
+		rover.moveLeft();
+		rover.moveLeft();
+		rover.moveLeft();
+		rover.moveLeft();
+		rover.moveLeft();
+		
+		assertEquals("Vozilo pravi krug oko svoje ose na levo i jos jednom na levo",
+					 "(3, 3, E)", rover.getFormatedCoorditates());
+	}
+	
 }
