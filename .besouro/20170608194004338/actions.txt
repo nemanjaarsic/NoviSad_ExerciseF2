@@ -100,3 +100,4 @@ EditAction 1496946217127 TestPlanetExplorer.java 1203 5 14 5
 RefactoringAction 1496946227098 TestPlanetExplorer.java ADD void test_changeDirectionLeft_1()/2 METHOD
 RefactoringAction 1496946229630 TestPlanetExplorer.java RENAME test_changeDirectionLeft_1()/2=>void test_changeDirectionLeft_2() METHOD
 EditAction 1496946235026 TestPlanetExplorer.java 1440 6 17 6
+EditAction 1496946305401 PlanetExplorer.java 1915 7 12 0
