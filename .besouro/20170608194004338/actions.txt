@@ -8,3 +8,10 @@ RefactoringAction 1496944786750 PlanetExplorer.java ADD int y FIELD
 RefactoringAction 1496944801978 PlanetExplorer.java ADD String prepreke FIELD
 EditAction 1496944803693 PlanetExplorer.java 1315 2 1 0
 EditAction 1496944838832 PlanetExplorer.java 1367 2 4 0
+RefactoringAction 1496944884582 PlanetExplorer.java ADD String getF FIELD
+RefactoringAction 1496944891112 PlanetExplorer.java RENAME getF=>String getFormatedCoorditates FIELD
+RefactoringAction 1496944898137 PlanetExplorer.java RENAME getFormatedCoorditates=>String getFormatedCoorditates() METHOD
+RefactoringAction 1496945032383 PlanetExplorer.java ADD String di FIELD
+RefactoringAction 1496945034922 PlanetExplorer.java RENAME di=>String direction FIELD
+CompilationAction 1496945047784 PlanetExplorer.java
+EditAction 1496945078569 TestPlanetExplorer.java 295 1 2 1

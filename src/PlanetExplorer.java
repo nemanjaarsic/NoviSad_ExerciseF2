@@ -6,11 +6,13 @@
 public class PlanetExplorer {
 	private int x;
 	private int y;
+	private String direction;
 	private String prepreke;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 		this.x =x;
 		this.y =y;
+		this.direction = "N";
 		this.prepreke = obstacles;
 		
 	/*	x and y represent the size of the grid.
@@ -22,6 +24,13 @@ public class PlanetExplorer {
 	 */
 	}
 	
+	public String getFormatedCoorditates()
+	{
+		String ispis = null;
+		ispis = "(" + Integer.toString(x) + ", " + Integer.toString(y) + ", " + direction;
+		
+		return ispis;
+	}
 	
 	
 	public String executeCommand(String command){
