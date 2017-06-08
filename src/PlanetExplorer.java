@@ -60,6 +60,10 @@ public class PlanetExplorer {
 			this.direction = "E";
 		else if(this.direction == "E")
 			this.direction = "S";
+		if(this.direction == "S")
+			this.direction = "W";
+		else if (this.direction = "W")
+			this.direction = "N";
 	}
 	
 	
