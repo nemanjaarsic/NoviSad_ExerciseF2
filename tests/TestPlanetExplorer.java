@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void test_executeCommand() {
-		fail("Not yet implemented");
+	public void test_mapFormation() {
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 	}
 }
