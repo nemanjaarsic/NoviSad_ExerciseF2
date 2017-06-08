@@ -37,6 +37,11 @@ public class PlanetExplorer {
 		this.y++;
 	}
 	
+	public void moveBack()
+	{
+		this.y--;
+	}
+	
 	
 	public String executeCommand(String command){
 		
