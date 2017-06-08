@@ -38,3 +38,10 @@ RefactoringAction 1496945472399 PlanetExplorer.java RENAME moveFor=>void moveFor
 EditAction 1496945475349 PlanetExplorer.java 1633 4 8 0
 EditAction 1496945485158 PlanetExplorer.java 1642 4 9 0
 EditAction 1496945564982 TestPlanetExplorer.java 518 2 5 2
+UnitTestCaseAction 1496945570047 TestPlanetExplorer.java OK
+UnitTestSessionAction 1496945570049 TestPlanetExplorer.java OK
+RefactoringAction 1496945586994 TestPlanetExplorer.java ADD void test_moveFarvard()/2 METHOD
+RefactoringAction 1496945591023 TestPlanetExplorer.java RENAME test_moveFarvard()/2=>void test_move() METHOD
+RefactoringAction 1496945595049 TestPlanetExplorer.java RENAME test_moveFarvard()=>void test_move()/2 METHOD
+RefactoringAction 1496945597073 TestPlanetExplorer.java RENAME test_move()/2=>void test_moveForth() METHOD
+EditAction 1496945600104 TestPlanetExplorer.java 735 3 8 3

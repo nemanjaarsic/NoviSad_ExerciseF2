@@ -11,7 +11,15 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_moveFarvard()
+	public void test_moveForth()
+	{
+		PlanetExplorer rover = new PlanetExplorer(3,3,null);
+		rover.moveForth();
+		assertEquals("Vozilo se pomerilo za napred za 1", "(3, 4, N)", rover.getFormatedCoorditates());
+	}
+	
+	@Test
+	public void test_moveForth()
 	{
 		PlanetExplorer rover = new PlanetExplorer(3,3,null);
 		rover.moveForth();
